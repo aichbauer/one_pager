@@ -26,9 +26,13 @@ also add ids to the divs, you can name your ids whatever you like,
 
 the important thing is to link your a tags to the ids of the divs.
 
-If you want a home section, create a <div class="onepage" id="home">,
+If you want a home section, create a 
 
-and in your nav add an anchor to home like <a href="#home">Home</a>.
+    <div class="onepage" id="home">
+
+and in your nav add an anchor to home like
+
+    <a href="#home" > Home </a>
 
 if you download this project with the index file and set your paths
 
